@@ -1,5 +1,5 @@
 # RotateDemo
-Here is a sample project to focus how to update constraints in correct way. <br /> 
+This is a sample project to focus how to update constraints in correct way. <br /> 
 The example is update constraints for view when rotate device. <br />
 
 # Reference
