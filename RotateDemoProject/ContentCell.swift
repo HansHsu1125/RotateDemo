@@ -9,10 +9,10 @@
 import UIKit
 
 class ConetentCell : UITableViewCell {
-    var allConstraints:[NSLayoutConstraint] = .init()
-    let titleLabel:UILabel = .init(frame: .zero)
-    let contentLabel:UILabel = .init(frame: .zero)
-    var shouldRefreshLayout:Bool = true
+    var allConstraints: [NSLayoutConstraint] = .init()
+    let titleLabel: UILabel = .init(frame: .zero)
+    let contentLabel: UILabel = .init(frame: .zero)
+    var shouldRefreshLayout: Bool = true
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)

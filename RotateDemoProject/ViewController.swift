@@ -8,15 +8,15 @@
 
 import UIKit
 
-typealias ContentInfo = (title:String , content:String)
-let RowTitle:String = "row %ld - item %ld "
-let RowContent:String = "item %ld content :  **************************************************************"
+typealias ContentInfo = (title: String , content: String)
+let RowTitle: String = "row %ld - item %ld "
+let RowContent: String = "item %ld content :  **************************************************************"
 
 class ViewController: UIViewController {
-    let maxDataCount:Int = 30
-    let reuseIdentify:String = "ContentCell"
-    let tableView:UITableView = .init(frame: .zero, style: .plain)
-    var shouldRefreshLayout:Bool = true
+    let maxDataCount: Int = 30
+    let reuseIdentify: String = "ContentCell"
+    let tableView: UITableView = .init(frame: .zero, style: .plain)
+    var shouldRefreshLayout: Bool = true
 
     override func viewDidLoad() {
         super.viewDidLoad()
